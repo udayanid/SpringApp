@@ -5,6 +5,12 @@ public class Employee {
     private String empNo;
     private int deptNo;
 
+    public Employee(String empName, String empNo, int deptNo) {
+        this.empName = empName;
+        this.empNo = empNo;
+        this.deptNo = deptNo;
+    }
+
     public int getDeptNo() {
         return deptNo;
     }
@@ -21,11 +27,6 @@ public class Employee {
     }
 
     public void setEmpNo(String empNo) {
-        this.empNo = empNo;
-    }
-
-    public Employee(String empName, String empNo) {
-        this.empName = empName;
         this.empNo = empNo;
     }
 
