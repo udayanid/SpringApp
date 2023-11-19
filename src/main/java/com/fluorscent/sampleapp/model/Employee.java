@@ -3,19 +3,19 @@ package com.fluorscent.sampleapp.model;
 public class Employee {
     private String empName;
     private String empNo;
-    private int deptNo;
+    private String deptNo;
 
-    public Employee(String empName, String empNo, int deptNo) {
+    public Employee(String empName, String empNo, String deptNo) {
         this.empName = empName;
         this.empNo = empNo;
         this.deptNo = deptNo;
     }
 
-    public int getDeptNo() {
+    public String getDeptNo() {
         return deptNo;
     }
 
-    public void setDeptNo(int deptNo) {
+    public void setDeptNo(String deptNo) {
         this.deptNo = deptNo;
     }
 
